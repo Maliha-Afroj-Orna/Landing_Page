@@ -1,0 +1,60 @@
+
+
+body{
+    background-image: url(images/bg.png);
+    background-repeat:no repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+
+}
+.navbar{
+    margin-top: 2%;
+}
+
+nav .navbar-collapse{
+    background-image: linear-gradient(to right, #6060d7 , #9398d1);
+    padding-right: 3%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 35px;
+   
+}
+.navbar .container-fluid li a{
+    border: none;
+}
+.navbar .container-fluid ul li a:hover{
+    border-top: 1px solid #ffffff;
+}
+
+button{
+    padding: 5px 20px;
+    border-radius: 15px;
+}
+.btn1{
+    background-image: linear-gradient(to right, #6060d7 , #9398d1);
+    color: #ffffff;
+    border-radius: 35px;
+    border:2px solid #6261d7;
+    font-family: 'Baloo Paaji 2';
+}
+.btn1:hover{
+    background-image: linear-gradient(to right,#F5F2FA , #F5F2FA);
+    color: #7f7d7e;
+}
+.btn2{
+
+    color: #7f7d7e;
+    border-radius: 35px;
+    border:2px solid #6261d7;
+    font-family: 'Baloo Paaji 2';
+}
+.btn2:hover{
+    background-image: linear-gradient(to right, #6060d7 , #9398d1);
+    color: #ffffff;
+}
+
+.footer a:hover{
+    background-color: #d4e2fe;
+}
+
